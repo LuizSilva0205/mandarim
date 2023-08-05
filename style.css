@@ -151,7 +151,7 @@ footer>p>a{
 }
 
 
-@media(min-width:380px) and (max-width:620px){
+@media(max-width:620px){
     
 
  #header{
@@ -223,6 +223,12 @@ footer>img{
  }
 
 }
+
+
+
+
+
+
 
 
 @media(max-width:379px){
