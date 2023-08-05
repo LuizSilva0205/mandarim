@@ -238,11 +238,55 @@ footer>img{
     padding: 0px;
 }
 header{
-   width: 90%; 
+    z-index: 2;
+   width: 100%; 
+   border: 1px solid black;
+   height: 100px;
+   background-image: url('imagens/Header_background.png');
+   margin-bottom: 150px;
+
+}
+
+#headder{
+    height: 20vh;
+}
+#conteudo_cabecalho{
+    
+    height: 30vw;
+}
+
+#img_logo{
+    top: -90px;
+    left: 30px;
+      
+}
+
+#text-header{
+    
+    position: relative;
+    width: 2%;
+    top: -200px;
+    margin-right: 55px;
+    font-size: 8px;
+    
+
+    
+}
+
+#conteudo_cabecalho>img{
+    visibility: hidden;
+}
+
+#div_conteudo{
+    max-width: 360px;
+}
+
+#conteudo_principal>div>img{
+    width: 100%;
 }
 
 footer>img{
-    width: 95px;
+    width: 100%;
 }
 
 footer>p{
