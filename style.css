@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+/*-----------------------------------------------------------CABEÇALHO-----------------------------------------*/
+
+
+#header{
+
+position: relative;
+width: 40vw;
+
+}
+
+
+
+
+
+#div_conteudo{
+    
+    position:absolute;
+    top:0px;
+
+}
+
+#img_logo{
+    margin-top: -80px;
+    
+    padding-left: 10px;
+    bottom: 50px;
+}
+
+#img_mulher{
+    margin-top: 0;
+    position: relative;
+    bottom: 17px;
+    background-image: url('imagens/mulher.png');
+}
+
+#text-header{
+    padding-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: right;
+    font-weight: 400;
+    color: white;
+}
+
+
+
+/*-----------------------------------conteudo principal----------------------------------*/
+
+
+#conteudo-principal{
+    width: 35vw;
+}
+#desc{
+    width: 100%
+}
+
+#artigos{
+    width: 550px;
+}
+
+#desc{
+    width: 100%;
+}
+
+.art{
+  
+    float: left;
+    padding: 5px;
+}
+
+
+/*------------------------------RODAPÉ---------------------------------------------------*/
+
+footer>p>a{
+    color: gray;
+}
+
+
+
+
+
+
+/*-----------------------RESPONSIVIDADE-------------------------*/
+
+@media(max-width:1455px){
+    #header{
+        
+        width: 600px;
+      
+      }
+      
+      
+      #conteudo_cabecalho{
+          position: relative;
+          width: 100%;
+      }
+
+   
+      
+      #div_conteudo{
+      
+          position:absolute;
+          top: 0;
+          margin: auto;
+      }
+      
+      #img_logo{
+   
+          margin-top: 0;
+          position: relative;
+          bottom: 50px;
+          width: 40%;
+      }
+
+      #text-header{
+   
+        
+        position: relative;
+        width: 25%;
+
+        
+    }
+      
+    #conteudo-principal{
+        width: 100%;
+        
+    }
+   
+
+    #conteudo-principal>div>img{
+        max-width: 530px;
+        
+    }
+
+ 
+
+    #resumo{
+    margin: auto;
+       max-width: 530px;
+    }
+   
+
+
+
+}
+
+
+@media(min-width:380px) and (max-width:620px){
+    
+
+ #header{
+
+    margin: 0px;
+    padding: 0;
+        position: relative;
+         width: 100vw;
+         height: 50vh;
+      
+}
+header{
+    width: 480px;
+}
+
+#conteudo_cabecalho>img{
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    max-width: 550px;
+}
+
+#text-header{
+    
+    position: relative;
+    width: 25%;
+    top: -200px;
+    margin-right: 15px;
+    
+
+    
+}
+
+#img_mulher{
+    visibility: hidden;
+}
+
+
+
+#img_logo{
+    margin-top: 80px;
+     position: relative;
+     bottom: 50px;
+     width: 60%;
+      
+}
+
+footer{
+    padding: 2px 5px 2px 5px;
+}
+
+footer>img{
+    width: 100%;
+}
+
+
+#artigos{
+    width: 275px;
+}
+
+#conteudo-principal{
+   margin-top: -120px;
+    width: 85vw;
+}
+
+#conteudo-principal>div>img{
+ 
+     width: 100%;
+ }
+
+}
+
+
+@media(max-width:379px){
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+   
+header{
+    max-width: 375px;
+}
+
+#conteudo_cabecalho{
+    max-width: 375px;
+}
+
+#conteudo_cabecalho>img{
+    float: left;
+    width: 100vw;
+
+}
+
+#conteudo_principal{
+    max-width: 375px;
+}
+
+#conteudo_principal>div>img{
+    max-width: 375px;
+}
+
+}
+
