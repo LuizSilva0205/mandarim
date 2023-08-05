@@ -231,35 +231,21 @@ footer>img{
 
 
 
-@media(max-width:379px){
+@media(max-width:370px){
 
 *{
     margin: 0px;
     padding: 0px;
 }
-
-   
 header{
-    max-width: 375px;
+   width: 90%; 
 }
 
-#conteudo_cabecalho{
-    max-width: 375px;
+footer>img{
+    width: 95px;
 }
 
-#conteudo_cabecalho>img{
-    float: left;
-    width: 100vw;
-
+footer>p{
+    font-size: 12px;
 }
-
-#conteudo_principal{
-    max-width: 375px;
 }
-
-#conteudo_principal>div>img{
-    max-width: 375px;
-}
-
-}
-
